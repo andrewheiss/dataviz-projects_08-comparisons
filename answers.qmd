@@ -68,7 +68,7 @@ library(ggrepel)
 
 This data comes from the [MIT Election Lab](https://electionlab.mit.edu/data) and contains county-level vote counts for US presidential elections from 2000 to 2024.^[The full data is hosted at the [MIT Election Data + Science Lab Dataverse](https://doi.org/10.7910/DVN/VOQCHQ) and is licensed as [Creative Commons Public Domain](http://creativecommons.org/publicdomain/zero/1.0).] Because of differences in how states report election data, the original MIT data was really tricky to work with. To simplify things, I've provided you with a pre-cleaned dataset with one row per candidate-county-year.[^cleaning-code] I also merged in region and division data from the US Census.
 
-[^cleaning-code]: For the morbidly curious, see here for the full data cleaning code.
+[^cleaning-code]: For the morbidly curious, [see here for the full data cleaning code](https://github.com/andrewheiss/dataviz-projects_08-comparisons/blob/main/build_data.R).
 
 There are 15 columns:
 
